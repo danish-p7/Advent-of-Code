@@ -32,14 +32,14 @@ int main()
 		getline(cin, text);
 
 		long long denominator = (x1 * y2 - y1 * x2);
-        long long a = (x3 * y2 - y3 * x2) / denominator;
-        long long b = (y3 * x1 - x3 * y1) / denominator;
+        	long long a = (x3 * y2 - y3 * x2) / denominator;
+        	long long b = (y3 * x1 - x3 * y1) / denominator;
 
 
-        if (a * denominator == (x3 * y2 - y3 * x2) && b * denominator == (y3 * x1 - x3 * y1)) 
-        {
-            result1 += (3 * a + b);
-        }
+        	if (a * denominator == (x3 * y2 - y3 * x2) && b * denominator == (y3 * x1 - x3 * y1)) 
+        	{
+            		result1 += (3 * a + b);
+       		}
 		
 		cout<<x1<<" "<<y1<<" "<<x2<<" "<<y2<<" "<<x3<<" "<<y3<<endl;
 	}
